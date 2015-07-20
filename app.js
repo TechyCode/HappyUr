@@ -13,7 +13,7 @@ request(targetUrl, function(err, response, data){
 
 		});
 	}
-});
+}); 
 function RestaurantDetails(restaurantName, restaurantUrl){
 	var self = this;
 	self.Parse = function(){
